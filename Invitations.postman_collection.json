@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "fa4ad382-f4ee-4fe7-a9e6-22d5003a9808",
+		"name": "Invitations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24816115"
+	},
+	"item": [
+		{
+			"name": "GetAllInvitations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/invitation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invitation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createInvitation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/invitation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invitation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConfirmInvitation",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/invitation/1/confirm",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invitation",
+						"1",
+						"confirm"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeclineInvitation",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/invitation/1/decline",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invitation",
+						"1",
+						"decline"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

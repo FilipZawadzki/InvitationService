@@ -8,11 +8,6 @@
 App allows you to create, list and change statuses of invitations.
 Every action: create, decline, accept trigger listeners to send an email to the invitee.
 
-- Approach for possible further development:
-- add person entity
-- add to invitation their names, dates etc.
-- create basic front end app
-
 
 ### Configuration can be found in application.properties and MailConfig.class
 
